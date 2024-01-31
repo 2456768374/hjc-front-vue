@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* 清除默认样式和浮动 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .content {
+        width: 50%;
+        float: left;
+        margin: 10px;
+      }
+
+      .content-a {
+        display: block; /* 将a标签转换为块级元素 */
+        text-decoration: none; /* 去除下划线 */
+        color: #333; /* 文本颜色 */
+      }
+
+      .content-image img {
+        width: 100%; /* 图片宽度占满父元素 */
+        height: auto; /* 保持图片宽高比 */
+      }
+
+      /* 其他样式，根据需要自行调整 */
+      .content-desc,
+      .content-time,
+      .content-meta {
+        margin-top: 10px;
+      }
+    </style>
+    <title>Two Side-by-Side .content Divs</title>
+  </head>
+  <body>
+    <!-- 第一个content -->
+    <div class="content">
+      <a href="" class="content-a">
+        <div class="content-image">
+          <img src="../assets/content-image.jpg" alt="" />
+        </div>
+        <div class="content-desc">【P站精选】动漫电脑壁纸 Vol. 394</div>
+        <div class="content-time">2024年1月30日</div>
+        <div class="content-meta">P站美图</div>
+      </a>
+    </div>
+
+    <!-- 第二个content -->
+    <div class="content">
+      <a href="" class="content-a">
+        <div class="content-image">
+          <img src="../assets/content-image.jpg" alt="" />
+        </div>
+        <div class="content-desc">【P站精选】动漫电脑壁纸 Vol. 394</div>
+        <div class="content-time">2024年1月30日</div>
+        <div class="content-meta">P站美图</div>
+      </a>
+    </div>
+  </body>
+</html>
