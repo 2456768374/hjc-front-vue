@@ -1,28 +1,24 @@
-# hjc-front-vue
+# 项目介绍
 
-This template should help get you started developing with Vue 3 in Vite.
+博客系统前端项目
 
-## Recommended IDE Setup
+技术栈：Vue3 + Vite + Vue Router + Pina + Axios
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+纯手工CSS，未使用Element Plus组件，充分强化页面美化能力。
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 项目初始化
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 项目启动
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 项目编译
 
 ```sh
 npm run build
